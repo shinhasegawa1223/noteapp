@@ -1,0 +1,23 @@
+button {
+  background: none;
+  border: none;
+  color: black;
+  background-color: transparent;
+  margin: 0;
+  padding: 0;
+  cursor: pointer;
+
+  transition: border-color 0.25s;
+}
+
+.app-sidebar {
+  width: 30%;
+  height: 100vh;
+  border-right: 1px solid black;
+}
+
+.app-sidebar-header {
+  display: flex;
+  justify-content: space-between;
+  padding: 25px;
+}
